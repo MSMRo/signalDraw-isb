@@ -6,7 +6,8 @@ Generador de señales senoidales en notebook de Python. Permite facilitar la cre
 ## Installation
 
 ```bash
-$ pip install git+https://github.com/MSMRo/signalDraw-isb.git
+!pip install git+https://github.com/MSMRo/signalDraw-isb.git   # Colab, Notebook, vscode
+$ pip install git+https://github.com/MSMRo/signalDraw-isb.git  # terminal
 
 #pip install signaldraw-isb  # Proximamente
 ```
