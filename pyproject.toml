@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "signaldraw-isb"
+version = "0.1.0"
+description = "A Jupyter widget for drawing and analyzing signals"
+authors = [
+    { name = "Author Name", email = "author@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "anywidget>=0.9.0",
+    "traitlets>=5.0.0",
+    "numpy>=1.20.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/your-username/signaldraw"
