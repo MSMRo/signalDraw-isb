@@ -5,7 +5,8 @@ A Jupyter widget for drawing and analyzing signals using `anywidget`.
 ## Installation
 
 ```bash
-pip install signaldraw-isb
+pip install git+https://github.com/MSMRo/signalDraw-isb.git
+#pip install signaldraw-isb  # Proximamente
 ```
 
 ## Usage
@@ -25,3 +26,5 @@ ui.signal_numpy
 # Returns a list of numpy arrays for all individual signals
 ui.signals_numpy 
 ```
+
+![](./imgs/ui.png)
