@@ -1,11 +1,15 @@
 # SignalDraw ISB
 
-A Jupyter widget for drawing and analyzing signals using `anywidget`.
+Generador de señales senoidales en notebook de Python.
+
+![](./imgs/ui.png)
+
 
 ## Installation
 
 ```bash
-pip install git+https://github.com/MSMRo/signalDraw-isb.git
+$ pip install git+https://github.com/MSMRo/signalDraw-isb.git
+
 #pip install signaldraw-isb  # Proximamente
 ```
 
@@ -20,11 +24,20 @@ ui
 
 Then you can access the signals generated:
 ```python
-# Returns a numpy array with the result signal
+# Retorna una lista con todas las señales usadas
+# signals[0] es la señal resultante de la suma
+# signals[1:] son los senos trabajados
+ui.signals
+
+# fs retorna una lista de todas las frecuencias usadas
+# fs[0] es 0 si se usan diferentes fs en cada señal, si no es la misma usada en todas.
+# fs[1:] son las frecuencias de muestreo de cada señal senoidal
+ui.fs
+
+# Retorna un numpy array con el result signal
 ui.signal_numpy 
 
-# Returns a list of numpy arrays for all individual signals
+# Retorna una lista de numpy arrays de todos los signals individuales 
 ui.signals_numpy 
 ```
 
-![](./imgs/ui.png)
