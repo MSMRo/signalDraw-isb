@@ -1,8 +1,6 @@
 # SignalDraw ISB
 
-Generador de señales senoidales en notebook de Python.
-
-![](./imgs/ui.png)
+Generador de señales senoidales en notebook de Python. Permite facilitar la creación de filtros al crear señales sintéticas rápidamente.
 
 
 ## Installation
@@ -41,3 +39,4 @@ ui.signal_numpy
 ui.signals_numpy 
 ```
 
+![](./imgs/ui.png)
